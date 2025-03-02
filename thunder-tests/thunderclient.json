@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "0564d610-4850-45af-af90-3b2665b7c54e",
+    "colId": "707e2adb-834b-4012-bfef-ae8c8e5e1e2f",
+    "containerId": "",
+    "name": "Ask-Post",
+    "url": "{{baseUrl}}/ask-openai",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2025-03-01T16:12:45.529Z",
+    "modified": "2025-03-01T16:15:45.318Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"prompt\": \"Write a short joke\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
